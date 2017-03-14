@@ -1,0 +1,23 @@
+# Site settings
+title: Project Name
+email: keith.senkowski@fjordnet.com
+description: > #Description of Project.
+baseurl: ""
+url: ""
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:title.html
+
+gems:
+- jekyll-redirect-from
+- jekyll-sitemap
+- jekyll-feed
+
+exclude: ["vendor",
+			"_assets",
+			"Gemfile",
+			"Gem.lock",
+			"gulpfile.js",
+			"node_modules",
+			"package.json"]
